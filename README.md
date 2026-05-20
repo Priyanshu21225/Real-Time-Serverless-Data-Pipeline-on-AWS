@@ -3,6 +3,7 @@
 A serverless AWS data pipeline that collects YouTube trending video data across 10 regions and transforms it into an analytics-ready dataset.
 
 Every 6 hours, it pulls live trending videos from the YouTube Data API, cleans and validates the data through a Bronze → Silver → Gold architecture, and produces aggregated Parquet datasets ready for analysis. The entire pipeline is orchestrated by AWS Step Functions with SNS alerts for failures.
+Download the kaggle dataset for the historical data
 
 ## Tech Stack
 
